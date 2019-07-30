@@ -1,4 +1,12 @@
-# aws-vue-exif
+# Vue-Boostrap-template
+
+## Purpose
+
+Setting up [Bootstrap](https://bootstrap-vue.js.org/) & [font-awesome](https://github.com/FortAwesome/vue-fontawesome) on Vue.js is annoying, so make it easy.
+
+## Template
+
+![sample](./sample.png)
 
 ## Project setup
 ```
