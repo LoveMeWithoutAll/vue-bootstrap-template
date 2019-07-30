@@ -23,7 +23,7 @@ html, body {
   color: #2c3e50;
   height: 100%;
   overflow-y: hidden;
-  background-color: cadetblue;
+  background-color: peachpuff;
 }
 #nav {
   padding: 30px;
