@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import Login from '@/views/Login.vue'
+import FontAwesome from '@/views/FontAwesome.vue'
 
 Vue.use(Router)
 
@@ -23,9 +23,9 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path: '/login',
-      name: 'login',
-      component: Login
+      path: '/fontawesome',
+      name: 'fontawesome',
+      component: FontAwesome
     }
   ]
 })
