@@ -1,9 +1,11 @@
 <template>
   <div id="app" class="container-fluid">
     <div id="nav">
-      <font-awesome-icon icon="user-secret" size="lg" />
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="fontawesome">
+        <font-awesome-icon icon="user-secret" size="4x" />
+      </router-link>
     </div>
     <router-view/>
   </div>
